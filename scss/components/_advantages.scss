@@ -1,0 +1,107 @@
+        .advantages__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            min-width: 280px;
+            max-width: 450px;
+            height: 120px;
+            border-radius: 4px;
+            background-color: var(--secondary-white-color);
+
+            @media screen and (min-width: 768px) {
+                width: 354px;
+
+            }
+
+            @media screen and (min-width: 1200px) {
+                width: 270px;
+            }
+        }
+        
+ 
+ @media screen and (min-width: 768px) {
+      .advantages__list {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 30px;
+      }
+  }
+
+        @media screen and (min-width: 1200px) {
+            .advantages__list {
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: baseline;
+                gap: 0px;
+    
+    .advantages__item+.advantages__item {
+            margin-left: 30px;
+        }
+            }
+        }
+
+
+.advantages__heder {
+        color: var(--title-text-color);
+    }
+
+
+.advantages__item {
+    max-width: 450px;
+    
+        @media screen and (min-width: 768px) {
+            width: 354px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+        }
+}
+
+.advantages {
+    line-height: 1.71;
+
+    &__text {
+        line-height: 1.71;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &__heder {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        margin-top: 0;
+        margin-bottom: 10px;
+        @media screen and (min-width: 768px) {
+                text-align: left;
+            }
+                        @media screen and (max-width: 768px) {
+                            text-align: center;
+                        }
+    }
+
+    &__heder {
+        color: var(--title-text-color);
+    }
+}
+
+
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
